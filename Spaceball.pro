@@ -1,4 +1,4 @@
-update=Giovedì 13 Febbraio 2014 19:09:38
+update=Giovedì 13 Febbraio 2014 23:44:03
 version=1
 last_client=eeschema
 [cvpcb]
@@ -87,3 +87,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+LibName31=spaceball
