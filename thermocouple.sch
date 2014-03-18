@@ -1,0 +1,183 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:spaceball
+LIBS:Spaceball-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MA31855 U401
+U 1 1 531C8E39
+P 4300 2650
+F 0 "U401" H 4300 3000 60  0000 C CNN
+F 1 "MA31855" H 4300 2700 60  0000 C CNN
+F 2 "" H 4300 2650 60  0000 C CNN
+F 3 "" H 4300 2650 60  0000 C CNN
+	1    4300 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2450 3450 2450
+$Comp
+L CONN_2 P401
+U 1 1 531C8E63
+P 2600 2600
+F 0 "P401" V 2550 2600 40  0000 C CNN
+F 1 "CONN_2" V 2650 2600 40  0000 C CNN
+F 2 "" H 2600 2600 60  0000 C CNN
+F 3 "" H 2600 2600 60  0000 C CNN
+	1    2600 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 2550 3000 2550
+Wire Wire Line
+	3000 2550 3000 2500
+Wire Wire Line
+	3000 2500 2950 2500
+Wire Wire Line
+	2950 2700 3000 2700
+Wire Wire Line
+	3000 2700 3000 2650
+Wire Wire Line
+	3000 2650 3550 2650
+Wire Wire Line
+	3450 2750 3550 2750
+$Comp
+L C C401
+U 1 1 531C8EA3
+P 4300 2050
+F 0 "C401" H 4300 2150 40  0000 L CNN
+F 1 "C" H 4306 1965 40  0000 L CNN
+F 2 "" H 4338 1900 30  0000 C CNN
+F 3 "" H 4300 2050 60  0000 C CNN
+	1    4300 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 531C8EB7
+P 4550 2100
+F 0 "#PWR020" H 4550 2100 30  0001 C CNN
+F 1 "GND" H 4550 2030 30  0001 C CNN
+F 2 "" H 4550 2100 60  0000 C CNN
+F 3 "" H 4550 2100 60  0000 C CNN
+	1    4550 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR021
+U 1 1 531C8ECB
+P 4050 2000
+F 0 "#PWR021" H 4050 1960 30  0001 C CNN
+F 1 "+3.3V" H 4050 2110 30  0000 C CNN
+F 2 "" H 4050 2000 60  0000 C CNN
+F 3 "" H 4050 2000 60  0000 C CNN
+	1    4050 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2050 4550 2050
+Wire Wire Line
+	4550 2050 4550 2100
+Wire Wire Line
+	4050 2000 4050 2050
+Wire Wire Line
+	3850 2050 4100 2050
+$Comp
+L CONN_5 P402
+U 1 1 531C8EF8
+P 5900 2650
+F 0 "P402" V 5850 2650 50  0000 C CNN
+F 1 "CONN_5" V 5950 2650 50  0000 C CNN
+F 2 "" H 5900 2650 60  0000 C CNN
+F 3 "" H 5900 2650 60  0000 C CNN
+	1    5900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR022
+U 1 1 531C8F0C
+P 5450 2400
+F 0 "#PWR022" H 5450 2360 30  0001 C CNN
+F 1 "+3.3V" H 5450 2510 30  0000 C CNN
+F 2 "" H 5450 2400 60  0000 C CNN
+F 3 "" H 5450 2400 60  0000 C CNN
+	1    5450 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR023
+U 1 1 531C8F20
+P 5450 2900
+F 0 "#PWR023" H 5450 2900 30  0001 C CNN
+F 1 "GND" H 5450 2830 30  0001 C CNN
+F 2 "" H 5450 2900 60  0000 C CNN
+F 3 "" H 5450 2900 60  0000 C CNN
+	1    5450 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2850 5450 2850
+Wire Wire Line
+	5450 2850 5450 2900
+Wire Wire Line
+	5450 2400 5450 2450
+Wire Wire Line
+	5450 2450 5500 2450
+Wire Wire Line
+	5050 2550 5500 2550
+Wire Wire Line
+	5050 2650 5500 2650
+Wire Wire Line
+	5050 2750 5500 2750
+Text Label 3450 2750 0    60   ~ 0
+3.3V
+Text Label 3450 2450 0    60   ~ 0
+GND
+Text Label 4550 2050 0    60   ~ 0
+GND
+Text Label 3850 2050 0    60   ~ 0
+3.3V
+Connection ~ 4050 2050
+$EndSCHEMATC
