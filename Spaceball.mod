@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  13/02/2014 10.38.51
+PCBNEW-LibModule-V1  Martedì 18 Marzo 2014 18:08:23
 # encoding utf-8
 Units mm
 $INDEX
@@ -71,7 +71,7 @@ Po 2 -1.27
 $EndPAD
 $EndMODULE SOIC-8
 $MODULE uMAX-8
-Po 0 0 0 15 52FC9189 00000000 ~~
+Po 0 0 0 15 53287CD3 00000000 ~~
 Li uMAX-8
 Sc 0
 AR 
@@ -83,56 +83,56 @@ Sh "1" R 1.35 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2 -1
+Po -2.275 -0.975
 $EndPAD
 $PAD
 Sh "2" R 1.35 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2 -0.35
+Po -2.275 -0.325
 $EndPAD
 $PAD
 Sh "3" R 1.35 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2 0.3
+Po -2.275 0.325
 $EndPAD
 $PAD
 Sh "4" R 1.35 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2 0.95
+Po -2.275 0.975
 $EndPAD
 $PAD
 Sh "5" R 1.35 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.24 -1.59
+Po 1.95 0.975
 $EndPAD
 $PAD
 Sh "6" R 1.35 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1.03 4.11
+Po 1.95 0.325
 $EndPAD
 $PAD
 Sh "7" R 1.35 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 8.65 -5.43
+Po 1.95 -0.325
 $EndPAD
 $PAD
 Sh "8" R 1.35 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 2.3 -1
+Po 1.95 -0.975
 $EndPAD
 $EndMODULE uMAX-8
 $EndLIBRARY
